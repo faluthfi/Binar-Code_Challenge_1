@@ -544,7 +544,7 @@ color: #ffb548;
     }
     #p3content{
         width: 100%;
-        margin-left: 40%;
+        margin-left: 10%;
     }
     #logo a{
         margin-left: 0%;
@@ -561,6 +561,12 @@ color: #ffb548;
     }
     .separator{
         visibility: hidden;
+    }
+    #page-three h1{
+        font-size: 7rem;
+    }
+    #page-three p{
+        font-size: 1.5rem;
     }
 }
 
