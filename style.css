@@ -1,6 +1,9 @@
 :root {
     font-size: 62.5%;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 * {
     margin: 0;
@@ -288,7 +291,7 @@ color: #ffb548;
 
 /*PAGE FIVE*/
 #page-five {
-    background-color: black;
+    background-color: #08090b;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -350,8 +353,8 @@ color: #ffb548;
     border-right: #ffb548 solid 0.3em;
     border-bottom: #ffb548 solid 0.2em;
     border-radius: 50%;
-    height: 5rem;
-    width: 5rem;
+    height: 7rem;
+    width: 7rem;
 }
 .profile-name{
     padding-top: 0.5em;
@@ -379,11 +382,11 @@ color: #ffb548;
     margin-top: 0.5em;
     display:flex;
     flex-direction: column;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     justify-content: flex-end;
 }
 .card-date{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     padding: 0.4em;
     opacity: 0.5;
 }
@@ -391,7 +394,7 @@ color: #ffb548;
 
 /*PAGE SIX*/
 #page-six {
-    background-color: black;
+    background-color: #0d0a09;
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -416,11 +419,16 @@ color: #ffb548;
     border-radius: 10px;
     width: 60%;
 }
+.p6-form p{
+    opacity: 0.5;
+    margin-left:2%;
+}
 .p6-form input{
-    width: 100%;
+    width: 98%;
     background-color: #1b1d1e;
     border:0px solid;
     color:#ffb548;
+    margin-left: 2%;
 }
 .p6-button{
     display: flex;
