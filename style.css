@@ -472,7 +472,7 @@ color: #ffb548;
 }
 
 /* MEDIA QUERY */
-/* Extra small devices (portrait phones, less than 576px)*/
+/* Extra small devices (portrait phones, less than 664px)*/
 @media (max-width: 664px) {
  #page-one {
         grid-template-columns: 100%;
@@ -514,6 +514,9 @@ color: #ffb548;
     }
     .p6-form{
         width: 100%;
+    }
+    .p6-button{
+        padding-top: 1em;
     }
     .p6-button button{
         padding:1em 3em; font-weight: bold;
@@ -622,6 +625,7 @@ color: #ffb548;
     }
     .p6-button{
         padding-right: 1em;
+        padding-top: 1em;
     }
     .topscore-content{
         font-size: 1.6rem;
@@ -685,6 +689,7 @@ color: #ffb548;
     }
     .p6-button{
         padding-right: 1em;
+        padding-top: 1em;
     }
     .topscore-content{
         font-size: 2rem;
